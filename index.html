@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Brandyn</title>
+</head>
+<body class="layout">
+    <header>
+        <div class="bLogo"></div>
+            <div id="mySideNav" class="sideNav">
+                <div class="navLinks">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#myWork">Projects</a>
+                    <div class="toggle"></div>
+                </div>
+                <div class="navResume">
+                    <a href="/assets/BrandynHufferResume.pdf" download><img src="/assets/resume.png" alt="Resume Link"></a>
+                </div>
+            </div>
+            <div class="menuToggle" id="sideMenuToggle" onclick="openNav()"><img src="./assets/menu.png"></div>
+    </header>
+    <div id="main">
+        <section class="intro" id="intro">
+
+            <div class="introText">
+                <h2>Hello, My name is</h2>
+                <h3>Brandyn Huffer.</h3>
+                <h4>I enjoy learning and building for the web.</h4>
+                <p>I'm a junior full-stack web developer, excited to be at the development phase of my new career in the ever changing and evolving technilogical field. 
+                   Competent in all levels of web development, focused on continuing to grow my diverse programming toolkit.
+                </p>
+            </div>
+
+
+
+        </section>
+
+        <section id="about" class ="aboutMe">
+            
+            <div class="aboutMeImg">
+                <img src="./assets/brandynHeadshot.png" alt="BrandynsFace">
+            </div>
+
+            <div class="aboutMeContent">
+
+                <h2>About Me</h2>
+                <div class="aboutMeDescription">
+                    <p>
+                        I am currently expanding my knowledge as a full-stack developer.
+                        <br></br>
+                        I most recently worked as a Store Manager at a Retro Video Game Store, and before that I worked in a class room as a Teacher's Assistant. 
+                        Though none of my work experience is in web or tech directly, 
+                        I feel my experiences within my previous roles have taught me patients, adaptability, and the importance of communication and teamwork. 
+                        These and many other invaluable skills that will aid in achieving success.
+                        <br></br>
+                        I have had a some exposure to programming and coding over the years, 
+                        and have always been someone who has gravitated toward tech and enjoys a challenge.
+
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="experience" class ="myExperience">
+            
+            <div class = "expContent">
+                <h2>My Experience</h2>
+
+                <div class="expDescription">
+
+                        <p> 
+                            I have very recently completed a full-stack web development bootcamp through SMU. Within the program I was able to make great connections
+                            and was presented with the oppertunity to work on a vast array of front-end, back-end, and full-stack applications. Though the bootcamp has concluded
+                            I have continued expanding my knowledge within the web development field, as well as honing newly acquired skills.
+                            <br></br>
+                            I am seeking employment and I look forward to learning more, growing within the field, and collaborating on exciting new projects!
+                            I am new to web development, but have already had experience developing full-stack applications with the following technologies:
+
+                            <div class="skills">
+                                <ul class = 'skillsLeft-container'>
+
+                                    <li>Git</li>
+                                    <li>HTML5</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>JQuery</li>
+                                    <li>Node.js</li>
+                                    <li>Express.js</li>
+                                    <li>Web API's</li>
+                                    <li>RestfulAPI</li>
+
+                                </ul>
+                                <ul class = 'skillsRight-container'>
+
+                                    <li>MySQL</li>
+                                    <li>Sequelize</li>
+                                    <li>Test Driven Development</li>
+                                    <li>MonogoDB</li>
+                                    <li>Mongoose.js</li>
+                                    <li>Progressive Web Apps</li>
+                                    <li>GraphQL</li>
+                                    <li>React.js</li>
+                                    <li>Redux</li>
+
+                                </ul>
+                            </div>
+
+                        </p>
+                        
+                    </div>
+            </div>
+        </section>
+
+        <section id="myWork" class ="projects">
+            <br></br>
+
+            <div class="card">
+                <h1><u>Thirsty's Brewery Finder</u></h1>
+                
+                <br></br>
+
+                <img src="./assets/thirstys.png" alt="Thirsty's" style="width: 100%">
+
+                <br></br>
+
+                <p class ='card-description paragraph-container'>This group project was designed to allow a user to find breweries based off a city search, and maps it. 
+                    Utilizing HTML, CSS, Javascript, local storage, web-based API's, server-based API's, and GitHub project managment.</p>
+                
+                <br></br>
+                <div class="buttons">
+                    <p class="redirectBtn"><a href="https://brandynh.github.io/Thirstys/"
+                            target="_blank"><button class="goToPage">Go to Page </button></a>
+                    </p>
+
+                    <br></br>
+
+                    <p class="redirectBtn"><a href="https://github.com/brandynh/Thirstys"
+                        target="_blank"><button class="goToRepo">Go to Repo</button></a>
+                    </p>
+                </div>
+
+                <div class="slideBtns">
+                    <div class="leftBtn">
+                        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                    </div>
+                    <div class="rightBtn">
+                        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <br></br>
+
+            <div class="card">
+                <h1><u>Team Collaborator</u></h1>
+
+                <br></br>
+
+                <img src="./assets/secc.png" alt="TeamCollaborator" style="width:100%">
+
+                <br></br>
+
+                <p class ='card-description paragraph-container'> 
+                    By utilizing Node.js and Express for a RESTful API, Handlebars.js as the template engine, and MySQL and the Sequalize ORM for database.
+                    My group was able to create an App with the purpose of team collaboration. The app also includes authentication via express-sessions and cookies.
+                </p>
+
+                <br></br>
+
+                <div class="buttons">
+                    <p class="redirectBtn"><a href="https://s-e-c-c.herokuapp.com/"
+                            target="_blank"><button class="goToPage">Go to Page </button></a>
+                    </p>
+
+                    <br></br>
+
+                    <p class="redirectBtn"><a href="https://github.com/brandynh/S.E.C.C"
+                                target="_blank"><button class="goToRepo">Go to Repo</button></a>
+                    </p>
+                </div>
+
+                <div class="slideBtns">
+                    <div class="leftBtn">
+                        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                    </div>
+                    <div class="rightBtn">
+                        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <br></br>
+
+            <div class="card">
+                <h1><u>Parks & Rex</u></h1>
+
+                <br></br>
+
+                <img src="./assets/parksandRex.png" alt="ParksandRex" style="width:100%">
+
+                <br></br>
+
+                <p class ='card-description paragraph-container'> 
+                    An e-commerce web app selling tours of a Dinosaur Safari. This app demonstrates 
+                    the use of the MERN Stack, Apollo, Graph QL, bcrypt, and service workers for 
+                    a true PWA.
+                </p>
+
+                <br></br>
+
+                <div class="buttons">
+                    <p class="redirectBtn"><a href="https://parksandrex.herokuapp.com/"
+                            target="_blank"><button class="goToPage">Go to Page </button></a>
+                    </p>
+
+                    <br></br>
+
+                    <p class="redirectBtn"><a href="https://github.com/brandynh/ParksAndRex"
+                                target="_blank"><button class="goToRepo">Go to Repo</button></a>
+                    </p>
+                </div>
+                <div class="slideBtns">
+                    <div class="leftBtn">
+                        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                    </div>
+                    <div class="rightBtn">
+                        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+        <div class="socials">
+            <ul>
+
+                <li><a href="#intro"><img src="/assets/homeButton.png" alt="LinkedIn Icon"></a></li>
+                <li><a href="https://github.com/brandynh" target="_blank"><img src="/assets/gitHubIcon.png" alt="GitHub Icon"></a></li>
+                <li><a href="https://www.linkedin.com/in/hufferb" target="_blank"><img src="/assets/linkedInIcon.png" alt="LinkedIn Icon"></a></li>
+                <li id="emailIcon"><a href="mailto:hufferbrandyn@gmail.com"><img src="/assets/emailIcon.png" alt="Email Icon"></a></li>
+                
+            </ul>
+            <p>~~~~~~~~~~~~~~~~</p>
+        </div>
+
+        <div class="email">
+            <a href="hufferbrandyn@gmail.com">hufferbrandyn@gmail.com</a>
+            <p>~~~~~~~~~~~~~~~~</p>
+        </div>
+        <video src="./assets/backgroundVideo.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+    
+    <script src="/script.js"></script>
+</body>
+</html>
